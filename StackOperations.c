@@ -66,7 +66,7 @@ void push(){
         top++;
         printf("\n----<<ELEMENT(%d) PUSHED at Top Position(%d)>>\n", element, top);
     }else{
-        printf("\n----<<THE STACK IS FULL>>----\n");  //if the Stack will be full;
+        printf("\n----<<THE STACK IS FULL(Stack Overflow)>>----\n");  //if the Stack will be full;
     }
 }
 //Defining the pop() Function to POP an element from the top of the Stack;
@@ -76,7 +76,7 @@ void pop(){
         StackArray[top-1] = 0;
         top--;
     }else{
-        printf("\n----<<THE STACK IS EMPTY>>----\n");  //if the Stack will be empty;
+        printf("\n----<<THE STACK IS EMPTY(Stack Underflow)>>----\n");  //if the Stack will be empty;
     }
 }
 //Defining the resetStack() Function to RESET the full Stack;
