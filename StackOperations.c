@@ -1,4 +1,5 @@
-// C Program to show basic stack operations like push, pop, reset stack..
+// C Program to implement basic stack operations like traverse, push, pop, reset in a Stack Data Structure using Array..
+//Added headerfile;
 #include<stdio.h>
 //Defining max as 5;
 #define max 5
